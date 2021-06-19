@@ -21,5 +21,9 @@
 	"bin": {
 		"random-pas": "index.js"
 	},
-	"license": "MIT"
+	"license": "MIT",
+	"dependencies": {
+		"cli-welcome": "^2.2.2",
+		"clipboardy": "^2.3.0"
+	}
 }
