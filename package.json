@@ -1,5 +1,5 @@
 {
-	"name": "random-password-gen",
+	"name": "rpassword-gen",
 	"version": "1.0.0",
 	"description": "A CLI that generates random password",
 	"main": "index.js",
