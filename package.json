@@ -1,6 +1,6 @@
 {
 	"name": "password-generator-publish",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A CLI that generates random password",
 	"main": "index.js",
 	"author": {
@@ -26,5 +26,6 @@
 		"chalk": "^2.4.2",
 		"cli-welcome": "^2.2.2",
 		"clipboardy": "^2.3.0"
-	}
+	},
+	"repository": "https://github.com/msaaddev/mlsa_session"
 }
