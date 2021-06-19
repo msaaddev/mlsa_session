@@ -1,4 +1,5 @@
 const clipboardy = require('clipboardy');
+const chalk = require('chalk');
 
 module.exports = async length => {
 	let character =
@@ -10,7 +11,7 @@ module.exports = async length => {
 		password += character[Math.floor(Math.random() * charactersLength)];
 	}
 
-	console.log('Your password:', password, '\n');
+	console.log(chalk.black.bgCyan.bold(' Your Password '), password, '\n');
 
 	try {
 		await clipboardy.write(password);
