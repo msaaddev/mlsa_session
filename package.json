@@ -1,6 +1,6 @@
 {
 	"name": "password-generator-publish",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A CLI that generates random password",
 	"main": "index.js",
 	"author": {
