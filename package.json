@@ -1,0 +1,25 @@
+{
+	"name": "random-password-gen",
+	"version": "1.0.0",
+	"description": "A CLI that generates random password",
+	"main": "index.js",
+	"author": {
+		"name": "Saad Irfan",
+		"email": "me@msaad.dev",
+		"url": "https://github.com/msaaddev"
+	},
+	"keywords": [
+		"random password generator",
+		"password generator"
+	],
+	"devDependencies": {
+		"prettier": "^2.3.1"
+	},
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"bin": {
+		"random-pas": "index.js"
+	},
+	"license": "MIT"
+}
